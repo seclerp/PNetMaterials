@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorFusion.Web.App", "SensorFusion.Web.App\SensorFusion.Web.App.csproj", "{B4C8C630-E49A-48F7-AB9F-856E9B7C4818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Receiver", "Receiver", "{019396BA-611A-406D-9369-C52EBA6831F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoT", "IoT", "{AFB5F9D3-D4EB-4F0D-85FA-8BA9FF6A780F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorFusion.IoT.SensorEmulator", "SensorFusion.IoT.SensorEmulator\SensorFusion.IoT.SensorEmulator.csproj", "{619459EB-AB5C-4765-9645-9559B178CA72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{4FFE70CD-53A9-4BD6-9A8A-0035807F4325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0437D399-6CB5-4033-B0A0-85DD2ECCBCDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{AC85E0EF-EA89-4BEA-8365-F0CEB4E0027C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorFusion.Shared.Data", "SensorFusion.Shared.Data\SensorFusion.Shared.Data.csproj", "{5C230160-F108-4D59-8C89-F3A8589EFC7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorFusion.Receiver", "SensorFusion.Receiver\SensorFusion.Receiver.csproj", "{A800F246-46B0-44FD-8D0E-5607F3AA77FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C8C630-E49A-48F7-AB9F-856E9B7C4818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C8C630-E49A-48F7-AB9F-856E9B7C4818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C8C630-E49A-48F7-AB9F-856E9B7C4818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C8C630-E49A-48F7-AB9F-856E9B7C4818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619459EB-AB5C-4765-9645-9559B178CA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619459EB-AB5C-4765-9645-9559B178CA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619459EB-AB5C-4765-9645-9559B178CA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619459EB-AB5C-4765-9645-9559B178CA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C230160-F108-4D59-8C89-F3A8589EFC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C230160-F108-4D59-8C89-F3A8589EFC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C230160-F108-4D59-8C89-F3A8589EFC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C230160-F108-4D59-8C89-F3A8589EFC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A800F246-46B0-44FD-8D0E-5607F3AA77FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A800F246-46B0-44FD-8D0E-5607F3AA77FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A800F246-46B0-44FD-8D0E-5607F3AA77FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A800F246-46B0-44FD-8D0E-5607F3AA77FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{619459EB-AB5C-4765-9645-9559B178CA72} = {AFB5F9D3-D4EB-4F0D-85FA-8BA9FF6A780F}
+		{B4C8C630-E49A-48F7-AB9F-856E9B7C4818} = {0437D399-6CB5-4033-B0A0-85DD2ECCBCDE}
+		{5C230160-F108-4D59-8C89-F3A8589EFC7D} = {AC85E0EF-EA89-4BEA-8365-F0CEB4E0027C}
+		{A800F246-46B0-44FD-8D0E-5607F3AA77FB} = {019396BA-611A-406D-9369-C52EBA6831F3}
+	EndGlobalSection
+EndGlobal

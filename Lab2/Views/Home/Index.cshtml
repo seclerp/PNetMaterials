@@ -1,0 +1,30 @@
+﻿@model List<List<object>>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.CurrentTable</h1>
+    <table>
+        <tr>
+            <td>User Id</td>
+            <td>Name</td>
+            <td>Registratiion Date</td>
+            <td>Gender</td>
+            <td>Age</td>
+            <td>Country</td>
+        </tr>
+        @foreach (var row in Model)
+        {
+            <tr>
+                <td>@row[0]</td>
+                <td>@row[1]</td>
+                <td>@row[2]</td>
+                <td>@row[3]</td>
+                <td>@row[4]</td>
+                <td>@row[5]</td>
+            </tr>
+        }
+    </table>
+</div>
